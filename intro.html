@@ -7,8 +7,8 @@
     <h2> Look at neighborhoods within Brooklyn!</h2>
 
     <div class="flex" align='center'>
-   <img src="folder/map.png" alt="Flatbush" style="width:300px;height:300px;" ><br/>
-   <img src= "folder/newfile.png" alt="Borough Park" style="width:300px;height:300px;">
+   <img src="folder/map.png" alt="Flatbush" style="width:300px;height:300px;" class="img" ><br/>
+   <img src= "folder/newfile.png" alt="Borough Park" style="width:300px;height:300px;" class="img">
 </div>
 
     <style>
@@ -16,6 +16,11 @@
         display: flex;
         justify-content: space-around;
       }
+
+      .img {
+          object-fit: cover;
+      }
+
     </style>
   </body>
 </html>
